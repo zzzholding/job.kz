@@ -94,12 +94,14 @@ a{
         transform: none;
         width: auto;
         height: auto;
+        padding: 10px;
     }
 
     .section-about__border {
-        width: auto;
+        width: 100%;
         height: auto;
         padding: 15px;
+        box-sizing: border-box;
     }
 }
 
