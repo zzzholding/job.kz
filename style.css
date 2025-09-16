@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color:#0063ca;
+
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+h1 {
+    color: aliceblue;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style-type:none;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+
+}
+
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.section-about {
+    min-height: 900px;
+    background-image: url(img/jobs.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 20px;
+    margin: 50px;
+}
+
+@media (max-width: 768px) {
+    .section-about {
+        min-height: 250px; 
+        margin: 10px;
+    }
+}
+
+.section-about__block {
+    width: 420px;
+    height: 190px;
+    background: linear-gradient(180deg,rgba(100, 153, 216, 0.8)0%, rgba(102, 223, 244, 0.8)100%);
+    position: absolute;
+    top: 77%;
+    left: 51%;
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 10px;
+}
+
+.section-about__border {
+    width: 390px;
+    height: 160px;
+    border: 1px solid black;
+    margin: 0 auto;
+    padding-top: 17px 0 0 28px;
+    text-align: left;
+    padding-left: 28px;
+    border-radius: 10px;
+
+}
+
+.section-about__title {
+    margin: 0;
+    font-size: 36px;
+    margin-bottom: 9px;
+}
+
+.section-about__text {
+    margin: 0;
+    font-size: 12px;
+}
+
+@media (max-width: 768px) {
+    .section-about__block {
+        position: static;
+        transform: none;
+        width: auto;
+    }
+}
+
+.section-description__icon-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 36px;
+    margin-bottom: 20px;
+}
+
+.section-description__icon-box img {
+    max-width: 100%;      
+    height: auto;         
+    width: 200px;        
+    border-radius: 10px;  
+}
+
+.section-description__title {
+    font-size: 96px;
+    margin: 0px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.section-description__span {
+    color: red;
+}
+
+.section-description__text {
+    font-size: 18px;
+    margin: 0px;
+    text-align: center;
+    width: 900px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+@media (max-width: 600px) {
+    .section-description__title {
+        font-size: 36px;
+        line-height: 1.2;
+    }
+    .section-description__text {
+        font-size: 14px;
+        max-width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
