@@ -93,6 +93,13 @@ a{
         position: static;
         transform: none;
         width: auto;
+        height: auto;
+    }
+
+    .section-about__border {
+        width: auto;
+        height: auto;
+        padding: 15px;
     }
 }
 
